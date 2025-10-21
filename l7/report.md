@@ -30,9 +30,8 @@ sudo cp /etc/default/grub /etc/default/grub.bak
 sudo nano /etc/default/grub
 
 Изменённые строки:
-
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash intel_idle.max_cstate=0 noinvpcid nopcid nopti nospectre_v2 processor.max_cstate=1 apparmor=0"
-GRUB_CMDLINE_LINUX=""
+GRUB_CMDLINE_LINUX="intel_idle.max_cstate=0 noinvpcid nopcid nopti nospectre_v2 processor.max_cstate=1 apparmor=0"
 
 Пояснение: параметры ядра разделяются пробелами, потому что каждый параметр является отдельным аргументом командной строки ядра. Запятые используются только внутри одного параметра, если он принимает список значений.  
 Вывод: параметры добавлены корректно, конфигурация подготовлена к обновлению загрузчика.
@@ -59,8 +58,6 @@ cat /proc/cmdline > ~/L7_tuning/logs/cmdline.txt
 
 Вывод:
 
-ini
-Копировать
 BOOT_IMAGE=/boot/vmlinuz-6.1.0-40-amd64 root=UUID=13004976-f859-4449-b4f3-bf826315c551 ro quiet splash intel_idle.max_cstate=0 noinvpcid nopcid nopti nospectre_v2 processor.max_cstate=1 apparmor=0
 
 Вывод: все параметры, добавленные в GRUB, применены при загрузке системы.
