@@ -1,0 +1,61 @@
+09:07:11.304584 execve("./tasks/01-permissions/broken.sh", ["./tasks/01-permissions/broken.sh"], 0xffffc2107148 /* 50 vars */) = 0 <0.002777>
+09:07:11.308898 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога) <0.000143>
+09:07:11.311066 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache> <0.000190>
+09:07:11.312329 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/lib/aarch64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/libc.so.6> <0.000137>
+09:07:11.317609 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive> <0.000159>
+09:07:11.319029 execve("/usr/local/bin/bash", ["bash", "./tasks/01-permissions/broken.sh"], 0xfffff18e1208 /* 50 vars */) = -1 ENOENT (Нет такого файла или каталога) <0.000353>
+09:07:11.319911 execve("/usr/bin/bash", ["bash", "./tasks/01-permissions/broken.sh"], 0xfffff18e1208 /* 50 vars */) = 0 <0.001634>
+09:07:11.323257 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога) <0.000167>
+09:07:11.323945 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache> <0.000129>
+09:07:11.324894 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/lib/aarch64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/libtinfo.so.6.5> <0.000249>
+09:07:11.327317 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/lib/aarch64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/libc.so.6> <0.000270>
+09:07:11.332858 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/dev/tty", O_RDWR|O_NONBLOCK) = 3</dev/tty> <0.000173>
+09:07:11.334208 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive> <0.000116>
+09:07:11.335934 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache> <0.000135>
+09:07:11.339621 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000234>
+09:07:11.340459 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, ".", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000098>
+09:07:11.340963 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000073>
+09:07:11.341357 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0 <0.000083>
+09:07:11.341746 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000191>
+09:07:11.342261 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000081>
+09:07:11.342687 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0 <0.000067>
+09:07:11.343356 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, ".", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000125>
+09:07:11.344400 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/bin/bash", 0xffffdd36db68, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000097>
+09:07:11.344895 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1412096, ...}, 0) = 0 <0.000084>
+09:07:11.345489 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1412096, ...}, 0) = 0 <0.000092>
+09:07:11.346371 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", X_OK) = 0 <0.000101>
+09:07:11.346836 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1412096, ...}, 0) = 0 <0.000078>
+09:07:11.347601 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", R_OK) = 0 <0.000165>
+09:07:11.349675 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "./tasks/01-permissions/broken.sh", O_RDONLY) = 3</home/hlebushek/system_administration/lab6/tasks/01-permissions/broken.sh> <0.000224>
+09:07:11.350439 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "./tasks/01-permissions/broken.sh", {st_mode=S_IFREG|0775, st_size=137, ...}, 0) = 0 <0.000071>
+09:07:11.352398 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, ".", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000066>
+09:07:11.352851 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/bin/mkdir", 0xffffdd36dad8, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000057>
+09:07:11.353131 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/mkdir", {st_mode=S_IFREG|0755, st_size=133584, ...}, 0) = 0 <0.000070>
+09:07:11.353446 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/mkdir", {st_mode=S_IFREG|0755, st_size=133584, ...}, 0) = 0 <0.000061>
+09:07:11.354218 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/mkdir", X_OK) = 0 <0.000102>
+09:07:11.354627 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/mkdir", {st_mode=S_IFREG|0755, st_size=133584, ...}, 0) = 0 <0.000059>
+09:07:11.355280 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/mkdir", R_OK) = 0 <0.000100>
+09:07:11.363563 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5897, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+09:07:11.364330 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, ".", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000112>
+09:07:11.364878 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/bin/chmod", 0xffffdd36dad8, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000059>
+09:07:11.365235 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/chmod", {st_mode=S_IFREG|0755, st_size=68056, ...}, 0) = 0 <0.000127>
+09:07:11.365861 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/chmod", {st_mode=S_IFREG|0755, st_size=68056, ...}, 0) = 0 <0.000078>
+09:07:11.366592 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/chmod", X_OK) = 0 <0.000562>
+09:07:11.367626 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/chmod", {st_mode=S_IFREG|0755, st_size=68056, ...}, 0) = 0 <0.000130>
+09:07:11.368411 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/chmod", R_OK) = 0 <0.000131>
+09:07:11.376016 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5898, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+09:07:11.376832 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/tmp/secret-dir/data.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = -1 EACCES (Отказано в доступе) <0.000167>
+09:07:11.377531 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3</etc/locale.alias> <0.000133>
+09:07:11.378921 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000126>
+09:07:11.379493 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000128>
+09:07:11.380077 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000145>
+09:07:11.380882 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000103>
+09:07:11.381340 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000101>
+09:07:11.381797 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru/LC_MESSAGES/libc.mo", O_RDONLY) = 3</usr/share/locale/ru/LC_MESSAGES/libc.mo> <0.000128>
+09:07:11.382995 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000127>
+09:07:11.383527 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000102>
+09:07:11.383988 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000111>
+09:07:11.384425 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000086>
+09:07:11.384810 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000086>
+09:07:11.385186 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru/LC_MESSAGES/bash.mo", O_RDONLY) = 3</usr/share/locale/ru/LC_MESSAGES/bash.mo> <0.000103>
+09:07:11.387966 +++ exited with 1 +++

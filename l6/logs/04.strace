@@ -1,0 +1,3 @@
+09:07:12.493127 socket(AF_INET, SOCK_STREAM, IPPROTO_TCP) = 3<TCP:[51651]> <0.000142>
+09:07:12.495174 connect(3<TCP:[51651]>, {sa_family=AF_INET, sin_port=htons(9999), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 ECONNREFUSED (В соединении отказано) <0.000796>
+09:07:12.505987 +++ exited with 1 +++

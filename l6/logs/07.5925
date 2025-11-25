@@ -1,0 +1,141 @@
+09:07:12.972225 execve("/usr/bin/bash", ["bash", "tasks/07-daemonize/daemon.sh"], 0xffffe04646a8 /* 50 vars */) = 0 <0.001313>
+09:07:12.974472 brk(NULL)               = 0xaaaaea927000 <0.000079>
+09:07:12.974970 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffff8a43d000 <0.000184>
+09:07:12.975629 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога) <0.000117>
+09:07:12.977105 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache> <0.000104>
+09:07:12.977619 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=50971, ...}) = 0 <0.000167>
+09:07:12.978157 mmap(NULL, 50971, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0xffff8a430000 <0.000154>
+09:07:12.978652 close(3</etc/ld.so.cache>) = 0 <0.000098>
+09:07:12.979128 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/lib/aarch64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/libtinfo.so.6.5> <0.000097>
+09:07:12.979573 read(3</usr/lib/aarch64-linux-gnu/libtinfo.so.6.5>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0 \6\4\0\0\0\0\0\0\0\0\0@\08\0\t\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0@\372\2\0\0\0\0\0@\372\2\0\0\0\0\0\0\0\1\0\0\0\0\0"..., 832) = 832 <0.000065>
+09:07:12.979868 fstat(3</usr/lib/aarch64-linux-gnu/libtinfo.so.6.5>, {st_mode=S_IFREG|0644, st_size=265504, ...}) = 0 <0.000048>
+09:07:12.980163 mmap(NULL, 329936, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_DENYWRITE, -1, 0) = 0xffff8a3b3000 <0.000126>
+09:07:12.980465 mmap(0xffff8a3c0000, 264400, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/aarch64-linux-gnu/libtinfo.so.6.5>, 0) = 0xffff8a3c0000 <0.000159>
+09:07:12.980853 munmap(0xffff8a3b3000, 53248) = 0 <0.000072>
+09:07:12.981065 munmap(0xffff8a401000, 10448) = 0 <0.000060>
+09:07:12.981248 mprotect(0xffff8a3f0000, 49152, PROT_NONE) = 0 <0.000084>
+09:07:12.981457 mmap(0xffff8a3fc000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/aarch64-linux-gnu/libtinfo.so.6.5>, 0x3c000) = 0xffff8a3fc000 <0.000102>
+09:07:12.981858 close(3</usr/lib/aarch64-linux-gnu/libtinfo.so.6.5>) = 0 <0.000083>
+09:07:12.982483 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/lib/aarch64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/libc.so.6> <0.000110>
+09:07:12.982903 read(3</usr/lib/aarch64-linux-gnu/libc.so.6>, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\300$\2\0\0\0\0\0@\0\0\0\0\0\0\0H\"\33\0\0\0\0\0\0\0\0\0@\08\0\r\0@\0=\0<\0\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\330\2\0\0\0\0\0\0\330\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0"..., 832) = 832 <0.000061>
+09:07:12.983202 fstat(3</usr/lib/aarch64-linux-gnu/libc.so.6>, {st_mode=S_IFREG|0755, st_size=1782152, ...}) = 0 <0.000058>
+09:07:12.983517 mmap(NULL, 1892400, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_DENYWRITE, -1, 0) = 0xffff8a1f1000 <0.000271>
+09:07:12.984018 mmap(0xffff8a200000, 1826864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/aarch64-linux-gnu/libc.so.6>, 0) = 0xffff8a200000 <0.000193>
+09:07:12.984486 munmap(0xffff8a1f1000, 61440) = 0 <0.000137>
+09:07:12.984814 munmap(0xffff8a3bf000, 48) = 0 <0.000073>
+09:07:12.985041 mprotect(0xffff8a39e000, 61440, PROT_NONE) = 0 <0.000122>
+09:07:12.985446 mmap(0xffff8a3ad000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/lib/aarch64-linux-gnu/libc.so.6>, 0x1ad000) = 0xffff8a3ad000 <0.000145>
+09:07:12.985907 mmap(0xffff8a3b2000, 49200, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffff8a3b2000 <0.000218>
+09:07:12.986415 close(3</usr/lib/aarch64-linux-gnu/libc.so.6>) = 0 <0.000056>
+09:07:12.986882 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffff8a42e000 <0.000134>
+09:07:12.987319 set_tid_address(0xffff8a42e0f0) = 5925 <0.000053>
+09:07:12.987559 set_robust_list(0xffff8a42e100, 24) = 0 <0.000422>
+09:07:12.988264 rseq(0xffff8a42e7e0, 0x20, 0, 0xd428bc00) = 0 <0.000125>
+09:07:12.988904 mprotect(0xffff8a3ad000, 12288, PROT_READ) = 0 <0.000138>
+09:07:12.989574 mprotect(0xffff8a3fc000, 16384, PROT_READ) = 0 <0.000155>
+09:07:12.991180 mprotect(0xaaaad42fb000, 20480, PROT_READ) = 0 <0.000157>
+09:07:12.991722 mprotect(0xffff8a442000, 8192, PROT_READ) = 0 <0.000190>
+09:07:12.992228 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000051>
+09:07:12.992589 munmap(0xffff8a430000, 50971) = 0 <0.000160>
+09:07:12.993035 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/dev/tty", O_RDWR|O_NONBLOCK) = 3</dev/tty> <0.000105>
+09:07:12.993528 close(3</dev/tty>)      = 0 <0.000143>
+09:07:12.994116 getrandom("\x3f\x17\x1e\x01\x40\x7e\xd7\x01", 8, GRND_NONBLOCK) = 8 <0.000062>
+09:07:12.994475 brk(NULL)               = 0xaaaaea927000 <0.000057>
+09:07:12.994707 brk(0xaaaaea948000)     = 0xaaaaea948000 <0.000085>
+09:07:12.994988 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive> <0.000088>
+09:07:12.995425 fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=3067632, ...}) = 0 <0.000052>
+09:07:12.995701 mmap(NULL, 3067632, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0xffff89f13000 <0.000117>
+09:07:12.996035 close(3</usr/lib/locale/locale-archive>) = 0 <0.000125>
+09:07:12.996588 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache> <0.000103>
+09:07:12.997024 fstat(3</usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache>, {st_mode=S_IFREG|0644, st_size=27028, ...}) = 0 <0.000049>
+09:07:12.997369 mmap(NULL, 27028, PROT_READ, MAP_SHARED, 3</usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0xffff8a436000 <0.000138>
+09:07:12.997795 close(3</usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache>) = 0 <0.000068>
+09:07:12.998092 futex(0xffff8a3b165c, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000049>
+09:07:12.998400 getuid()                = 1000 <0.000065>
+09:07:12.998736 getgid()                = 1000 <0.000065>
+09:07:12.999005 geteuid()               = 1000 <0.000201>
+09:07:12.999416 getegid()               = 1000 <0.000051>
+09:07:12.999731 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000068>
+09:07:13.000234 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000619>
+09:07:13.001317 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTART}, 8) = 0 <0.000069>
+09:07:13.001712 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000054>
+09:07:13.002108 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000053>
+09:07:13.002398 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000047>
+09:07:13.002644 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000236>
+09:07:13.003327 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000667>
+09:07:13.004448 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000755>
+09:07:13.005739 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000426>
+09:07:13.006705 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000086>
+09:07:13.007631 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000089>
+09:07:13.008118 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000048>
+09:07:13.008415 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000114>
+09:07:13.008796 rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000063>
+09:07:13.009129 uname({sysname="Linux", nodename="orangepi3b", ...}) = 0 <0.000052>
+09:07:13.009571 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000192>
+09:07:13.010863 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, ".", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000100>
+09:07:13.011395 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000054>
+09:07:13.011661 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0 <0.000051>
+09:07:13.011874 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000069>
+09:07:13.012251 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000059>
+09:07:13.012514 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0 <0.000054>
+09:07:13.012758 getpid()                = 5925 <0.000046>
+09:07:13.012995 getppid()               = 5922 <0.000047>
+09:07:13.013225 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, ".", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000060>
+09:07:13.013490 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/bin/bash", 0xffffd5095a78, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000057>
+09:07:13.013715 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1412096, ...}, 0) = 0 <0.000057>
+09:07:13.013939 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1412096, ...}, 0) = 0 <0.000056>
+09:07:13.014173 geteuid()               = 1000 <0.000044>
+09:07:13.014333 getegid()               = 1000 <0.000045>
+09:07:13.014489 getuid()                = 1000 <0.000043>
+09:07:13.014644 getgid()                = 1000 <0.000043>
+09:07:13.014801 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", X_OK) = 0 <0.000072>
+09:07:13.015018 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1412096, ...}, 0) = 0 <0.000051>
+09:07:13.015229 geteuid()               = 1000 <0.000048>
+09:07:13.015442 getegid()               = 1000 <0.000042>
+09:07:13.015598 getuid()                = 1000 <0.000042>
+09:07:13.015755 getgid()                = 1000 <0.000046>
+09:07:13.015916 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/bash", R_OK) = 0 <0.000072>
+09:07:13.016210 getpid()                = 5925 <0.000047>
+09:07:13.016379 getppid()               = 5922 <0.000062>
+09:07:13.016582 getpid()                = 5925 <0.000046>
+09:07:13.016746 getppid()               = 5922 <0.000046>
+09:07:13.017005 getpgid(0)              = 5888 <0.000049>
+09:07:13.017175 ioctl(2</dev/pts/0>, TIOCGPGRP, [5888]) = 0 <0.000054>
+09:07:13.017477 rt_sigaction(SIGCHLD, {sa_handler=0xaaaad4206440, sa_mask=[], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTART}, 8) = 0 <0.000052>
+09:07:13.017715 prlimit64(0, RLIMIT_NPROC, NULL, {rlim_cur=29594, rlim_max=29594}) = 0 <0.000053>
+09:07:13.018059 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000048>
+09:07:13.018269 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "tasks/07-daemonize/daemon.sh", O_RDONLY) = 3</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh> <0.000083>
+09:07:13.018736 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "tasks/07-daemonize/daemon.sh", {st_mode=S_IFREG|0775, st_size=60, ...}, 0) = 0 <0.000060>
+09:07:13.019025 ioctl(3</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, TCGETS, 0xffffd5095e20) = -1 ENOTTY (Неприменимый к данному устройству ioctl) <0.000051>
+09:07:13.019269 lseek(3</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, 0, SEEK_CUR) = 0 <0.000047>
+09:07:13.019460 read(3</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, "#!/usr/bin/env bash\n( cd /nonexistent && exec sleep 1000 ) &", 80) = 60 <0.000058>
+09:07:13.019672 lseek(3</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, 0, SEEK_SET) = 0 <0.000049>
+09:07:13.019873 prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=512*1024}) = 0 <0.000048>
+09:07:13.020055 fcntl(255, F_GETFD)     = -1 EBADF (Неправильный дескриптор файла) <0.000044>
+09:07:13.020265 dup3(3</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, 255, 0) = 255</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh> <0.000055>
+09:07:13.020520 close(3</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>) = 0 <0.000046>
+09:07:13.020700 fcntl(255</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, F_SETFD, FD_CLOEXEC) = 0 <0.000045>
+09:07:13.020883 fcntl(255</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, F_GETFL) = 0x20000 (flags O_RDONLY|O_LARGEFILE) <0.000045>
+09:07:13.021069 fstat(255</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, {st_mode=S_IFREG|0775, st_size=60, ...}) = 0 <0.000046>
+09:07:13.021268 lseek(255</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, 0, SEEK_CUR) = 0 <0.000044>
+09:07:13.021517 read(255</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, "#!/usr/bin/env bash\n( cd /nonexistent && exec sleep 1000 ) &", 60) = 60 <0.000053>
+09:07:13.021739 read(255</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, "", 60) = 0 <0.000048>
+09:07:13.022029 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000048>
+09:07:13.022249 rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0 <0.000045>
+09:07:13.022447 rt_sigprocmask(SIG_BLOCK, ~[], [INT TERM CHLD], 8) = 0 <0.000045>
+09:07:13.022635 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xffff8a42e0f0) = 5926 <0.000704>
+09:07:13.023523 rt_sigprocmask(SIG_SETMASK, [INT TERM CHLD], NULL, 8) = 0 <0.000144>
+09:07:13.023903 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000084>
+09:07:13.024130 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000058>
+09:07:13.024353 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000044>
+09:07:13.024538 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000154>
+09:07:13.024813 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000074>
+09:07:13.025020 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000080>
+09:07:13.025233 rt_sigprocmask(SIG_BLOCK, [CHLD], [CHLD], 8) = 0 <0.000094>
+09:07:13.025539 rt_sigprocmask(SIG_SETMASK, [CHLD], NULL, 8) = 0 <0.000078>
+09:07:13.025757 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000063>
+09:07:13.026064 read(255</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>, "", 60) = 0 <0.000080>
+09:07:13.026351 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000072>
+09:07:13.026607 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000090>
+09:07:13.026992 exit_group(0)           = ?
+09:07:13.028214 +++ exited with 0 +++

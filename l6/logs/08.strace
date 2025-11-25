@@ -1,0 +1,229 @@
+09:07:13.162739 execve("/usr/bin/python3", ["python3", "-c", "open('/etc/shadow').read()"], 0xffffc233a2d8 /* 50 vars */) = 0 <0.001335>
+09:07:13.165728 faccessat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога) <0.000109>
+09:07:13.167238 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3</etc/ld.so.cache> <0.000120>
+09:07:13.168241 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/lib/aarch64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/libm.so.6> <0.000119>
+09:07:13.170581 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/lib/aarch64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/libz.so.1.3.1> <0.000119>
+09:07:13.172985 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/lib/aarch64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/libexpat.so.1.10.2> <0.000107>
+09:07:13.175604 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/lib/aarch64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/libc.so.6> <0.000107>
+09:07:13.180516 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/proc/sys/vm/overcommit_memory", O_RDONLY) = 3</proc/sys/vm/overcommit_memory> <0.000123>
+09:07:13.182042 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3</usr/lib/locale/locale-archive> <0.000128>
+09:07:13.183519 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY|O_CLOEXEC) = 3</usr/lib/aarch64-linux-gnu/gconv/gconv-modules.cache> <0.000111>
+09:07:13.203055 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/bin/python3", 0xfffffa8a1ca0, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000114>
+09:07:13.203655 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/python3", {st_mode=S_IFREG|0755, st_size=6673720, ...}, 0) = 0 <0.000073>
+09:07:13.204182 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/pyvenv.cfg", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000086>
+09:07:13.204644 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000083>
+09:07:13.205157 readlinkat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/python3", "python3.13", 4096) = 10 <0.000076>
+09:07:13.205694 readlinkat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/python3.13", 0xfffffa89ccd0, 4096) = -1 EINVAL (Недопустимый аргумент) <0.000070>
+09:07:13.206335 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/python3._pth", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000121>
+09:07:13.206977 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/python3.13._pth", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000102>
+09:07:13.207553 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/pybuilddir.txt", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000088>
+09:07:13.208015 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/Modules/Setup.local", 0xfffffa8a1ca0, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000057>
+09:07:13.208414 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/lib/python313.zip", 0xfffffa8a19d0, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000142>
+09:07:13.209072 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python313.zip", 0xfffffa8a1a30, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000088>
+09:07:13.209639 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/lib/python3.13/os.py", 0xfffffa8a1a30, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000132>
+09:07:13.210335 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/lib/python3.13/os.pyc", 0xfffffa8a1a30, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000063>
+09:07:13.210758 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/os.py", {st_mode=S_IFREG|0644, st_size=41635, ...}, 0) = 0 <0.000134>
+09:07:13.211307 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/lib/python3.13/lib-dynload", 0xfffffa8a1a30, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000092>
+09:07:13.211785 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000079>
+09:07:13.212314 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000090>
+09:07:13.225766 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3</usr/share/zoneinfo/Europe/Moscow> <0.000114>
+09:07:13.228357 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python313.zip", 0xfffffa8a1630, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000108>
+09:07:13.229531 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000096>
+09:07:13.230278 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python313.zip", 0xfffffa8a1950, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000068>
+09:07:13.230867 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000076>
+09:07:13.231442 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000085>
+09:07:13.232182 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000076>
+09:07:13.232747 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3</usr/lib/python3.13> <0.000111>
+09:07:13.235746 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/__init__.cpython-313-aarch64-linux-gnu.so", 0xfffffa8a1950, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000090>
+09:07:13.236382 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/__init__.abi3.so", 0xfffffa8a1950, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000062>
+09:07:13.236834 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/__init__.abi3-aarch64-linux-gnu.so", 0xfffffa8a1950, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000062>
+09:07:13.237238 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/__init__.so", 0xfffffa8a1950, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000056>
+09:07:13.237558 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5884, ...}, 0) = 0 <0.000059>
+09:07:13.238196 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5884, ...}, 0) = 0 <0.000077>
+09:07:13.238812 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/__pycache__/__init__.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/encodings/__pycache__/__init__.cpython-313.pyc> <0.000128>
+09:07:13.246572 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000092>
+09:07:13.247192 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000059>
+09:07:13.247617 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000057>
+09:07:13.247914 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3</usr/lib/python3.13/encodings> <0.000079>
+09:07:13.249644 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15713, ...}, 0) = 0 <0.000069>
+09:07:13.250588 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15713, ...}, 0) = 0 <0.000071>
+09:07:13.251103 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/__pycache__/aliases.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/encodings/__pycache__/aliases.cpython-313.pyc> <0.000103>
+09:07:13.254382 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000193>
+09:07:13.255101 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}, 0) = 0 <0.000119>
+09:07:13.255746 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}, 0) = 0 <0.000069>
+09:07:13.256226 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/encodings/__pycache__/utf_8.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/encodings/__pycache__/utf_8.cpython-313.pyc> <0.000104>
+09:07:13.289605 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/bin/pyvenv.cfg", 0xfffffa8a13b0, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000114>
+09:07:13.291605 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/pyvenv.cfg", 0xfffffa8a1410, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000242>
+09:07:13.293077 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/.local/lib/python3.13/site-packages", 0xfffffa8a1620, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000068>
+09:07:13.293802 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/lib/python3.13/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000078>
+09:07:13.294332 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/lib/python3.13/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3</usr/local/lib/python3.13/dist-packages> <0.000106>
+09:07:13.295364 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000078>
+09:07:13.295944 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3</usr/lib/python3/dist-packages> <0.000099>
+09:07:13.297148 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/dist-packages", 0xfffffa8a1680, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000078>
+09:07:13.298149 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000097>
+09:07:13.298816 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}, 0) = 0 <0.000104>
+09:07:13.299687 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}, 0) = 0 <0.000085>
+09:07:13.300379 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/sitecustomize.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/sitecustomize.cpython-313.pyc> <0.000091>
+09:07:13.302392 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000077>
+09:07:13.302995 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000062>
+09:07:13.303350 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000073>
+09:07:13.303962 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000068>
+09:07:13.304369 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/lib-dynload", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3</usr/lib/python3.13/lib-dynload> <0.000092>
+09:07:13.305527 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/lib/python3.13/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000091>
+09:07:13.306138 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/lib/python3.13/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000073>
+09:07:13.306998 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/lib/python3.13/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000124>
+09:07:13.307669 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/lib/python3.13/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3</usr/local/lib/python3.13/dist-packages> <0.000119>
+09:07:13.308986 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000118>
+09:07:13.309697 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000107>
+09:07:13.315344 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000101>
+09:07:13.315923 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3</usr/lib/python3/dist-packages> <0.000105>
+09:07:13.318031 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000147>
+09:07:13.319427 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000092>
+09:07:13.320070 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/local/lib/python3.13/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000076>
+09:07:13.320598 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000066>
+09:07:13.322465 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000073>
+09:07:13.322939 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000070>
+09:07:13.323409 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000174>
+09:07:13.324106 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000083>
+09:07:13.324670 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3</home/hlebushek/system_administration/lab6> <0.000088>
+09:07:13.326415 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000081>
+09:07:13.326997 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/linecache.py", {st_mode=S_IFREG|0644, st_size=7284, ...}, 0) = 0 <0.000072>
+09:07:13.327700 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/linecache.py", {st_mode=S_IFREG|0644, st_size=7284, ...}, 0) = 0 <0.000085>
+09:07:13.328303 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/linecache.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/linecache.cpython-313.pyc> <0.000149>
+09:07:13.330473 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/etc/shadow", O_RDONLY|O_CLOEXEC) = -1 EACCES (Отказано в доступе) <0.000112>
+09:07:13.331447 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000071>
+09:07:13.331880 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000093>
+09:07:13.332676 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000072>
+09:07:13.333165 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/traceback.py", {st_mode=S_IFREG|0644, st_size=66524, ...}, 0) = 0 <0.000066>
+09:07:13.334149 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/traceback.py", {st_mode=S_IFREG|0644, st_size=66524, ...}, 0) = 0 <0.000098>
+09:07:13.334839 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/traceback.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/traceback.cpython-313.pyc> <0.000116>
+09:07:13.338861 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000070>
+09:07:13.339297 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000060>
+09:07:13.339705 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000064>
+09:07:13.340081 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/collections/__init__.cpython-313-aarch64-linux-gnu.so", 0xfffffa8a0ee0, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000058>
+09:07:13.340422 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/collections/__init__.abi3.so", 0xfffffa8a0ee0, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000054>
+09:07:13.340696 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/collections/__init__.abi3-aarch64-linux-gnu.so", 0xfffffa8a0ee0, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000060>
+09:07:13.341032 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/collections/__init__.so", 0xfffffa8a0ee0, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000070>
+09:07:13.341453 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=52500, ...}, 0) = 0 <0.000074>
+09:07:13.342312 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=52500, ...}, 0) = 0 <0.000107>
+09:07:13.343083 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/collections/__pycache__/__init__.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/collections/__pycache__/__init__.cpython-313.pyc> <0.000118>
+09:07:13.348535 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000090>
+09:07:13.349394 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000104>
+09:07:13.350123 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000084>
+09:07:13.350759 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/keyword.py", {st_mode=S_IFREG|0644, st_size=1073, ...}, 0) = 0 <0.000093>
+09:07:13.351578 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/keyword.py", {st_mode=S_IFREG|0644, st_size=1073, ...}, 0) = 0 <0.000215>
+09:07:13.352531 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/keyword.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/keyword.cpython-313.pyc> <0.000136>
+09:07:13.354935 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000081>
+09:07:13.355469 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000078>
+09:07:13.356053 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000084>
+09:07:13.356643 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/operator.py", {st_mode=S_IFREG|0644, st_size=10980, ...}, 0) = 0 <0.000083>
+09:07:13.357361 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/operator.py", {st_mode=S_IFREG|0644, st_size=10980, ...}, 0) = 0 <0.000088>
+09:07:13.357954 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/operator.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/operator.cpython-313.pyc> <0.000112>
+09:07:13.362247 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000088>
+09:07:13.362812 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000086>
+09:07:13.363426 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000077>
+09:07:13.363976 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/reprlib.py", {st_mode=S_IFREG|0644, st_size=7192, ...}, 0) = 0 <0.000110>
+09:07:13.364768 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/reprlib.py", {st_mode=S_IFREG|0644, st_size=7192, ...}, 0) = 0 <0.000087>
+09:07:13.365475 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/reprlib.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/reprlib.cpython-313.pyc> <0.000117>
+09:07:13.371268 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000074>
+09:07:13.371721 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000155>
+09:07:13.372334 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000081>
+09:07:13.372839 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/textwrap.py", {st_mode=S_IFREG|0644, st_size=19939, ...}, 0) = 0 <0.000075>
+09:07:13.373425 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/textwrap.py", {st_mode=S_IFREG|0644, st_size=19939, ...}, 0) = 0 <0.000072>
+09:07:13.373888 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/textwrap.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/textwrap.cpython-313.pyc> <0.000098>
+09:07:13.376173 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000074>
+09:07:13.376616 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000063>
+09:07:13.377012 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000062>
+09:07:13.377318 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__init__.cpython-313-aarch64-linux-gnu.so", 0xfffffa8a0c10, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000066>
+09:07:13.377654 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__init__.abi3.so", 0xfffffa8a0c10, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000063>
+09:07:13.377988 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__init__.abi3-aarch64-linux-gnu.so", 0xfffffa8a0c10, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000059>
+09:07:13.378283 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__init__.so", 0xfffffa8a0c10, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000091>
+09:07:13.378878 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__init__.py", {st_mode=S_IFREG|0644, st_size=17876, ...}, 0) = 0 <0.000075>
+09:07:13.379538 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__init__.py", {st_mode=S_IFREG|0644, st_size=17876, ...}, 0) = 0 <0.000068>
+09:07:13.379936 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__pycache__/__init__.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/re/__pycache__/__init__.cpython-313.pyc> <0.000105>
+09:07:13.384001 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000067>
+09:07:13.384412 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000065>
+09:07:13.384823 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000058>
+09:07:13.385124 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/enum.py", {st_mode=S_IFREG|0644, st_size=85578, ...}, 0) = 0 <0.000938>
+09:07:13.387617 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/enum.py", {st_mode=S_IFREG|0644, st_size=85578, ...}, 0) = 0 <0.000137>
+09:07:13.388326 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/enum.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/enum.cpython-313.pyc> <0.000273>
+09:07:13.398646 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000091>
+09:07:13.399249 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000075>
+09:07:13.399773 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000070>
+09:07:13.400252 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/functools.py", {st_mode=S_IFREG|0644, st_size=39123, ...}, 0) = 0 <0.000066>
+09:07:13.400868 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/functools.py", {st_mode=S_IFREG|0644, st_size=39123, ...}, 0) = 0 <0.000064>
+09:07:13.401302 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/functools.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/functools.cpython-313.pyc> <0.000086>
+09:07:13.406942 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000079>
+09:07:13.407380 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000063>
+09:07:13.407806 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000066>
+09:07:13.408204 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/types.py", {st_mode=S_IFREG|0644, st_size=11207, ...}, 0) = 0 <0.000060>
+09:07:13.408789 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/types.py", {st_mode=S_IFREG|0644, st_size=11207, ...}, 0) = 0 <0.000075>
+09:07:13.409412 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/types.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/types.cpython-313.pyc> <0.000087>
+09:07:13.420567 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000244>
+09:07:13.421507 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000107>
+09:07:13.422276 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000093>
+09:07:13.422816 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3</usr/lib/python3.13/re> <0.000104>
+09:07:13.423835 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/_compiler.py", {st_mode=S_IFREG|0644, st_size=26290, ...}, 0) = 0 <0.000290>
+09:07:13.425001 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/_compiler.py", {st_mode=S_IFREG|0644, st_size=26290, ...}, 0) = 0 <0.000409>
+09:07:13.426232 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__pycache__/_compiler.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/re/__pycache__/_compiler.cpython-313.pyc> <0.000116>
+09:07:13.429726 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000103>
+09:07:13.430460 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/_parser.py", {st_mode=S_IFREG|0644, st_size=41237, ...}, 0) = 0 <0.000082>
+09:07:13.431144 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/_parser.py", {st_mode=S_IFREG|0644, st_size=41237, ...}, 0) = 0 <0.000069>
+09:07:13.431618 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__pycache__/_parser.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/re/__pycache__/_parser.cpython-313.pyc> <0.000101>
+09:07:13.434404 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000090>
+09:07:13.435015 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/_constants.py", {st_mode=S_IFREG|0644, st_size=5939, ...}, 0) = 0 <0.000117>
+09:07:13.435879 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/_constants.py", {st_mode=S_IFREG|0644, st_size=5939, ...}, 0) = 0 <0.000089>
+09:07:13.436466 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__pycache__/_constants.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/re/__pycache__/_constants.cpython-313.pyc> <0.000103>
+09:07:13.440161 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000089>
+09:07:13.440792 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/_casefix.py", {st_mode=S_IFREG|0644, st_size=5444, ...}, 0) = 0 <0.000058>
+09:07:13.441306 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/_casefix.py", {st_mode=S_IFREG|0644, st_size=5444, ...}, 0) = 0 <0.000062>
+09:07:13.441689 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/re/__pycache__/_casefix.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/re/__pycache__/_casefix.cpython-313.pyc> <0.000082>
+09:07:13.445698 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000076>
+09:07:13.446301 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000060>
+09:07:13.446717 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000060>
+09:07:13.447027 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/copyreg.py", {st_mode=S_IFREG|0644, st_size=7614, ...}, 0) = 0 <0.000059>
+09:07:13.447491 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/copyreg.py", {st_mode=S_IFREG|0644, st_size=7614, ...}, 0) = 0 <0.000086>
+09:07:13.447902 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/copyreg.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/copyreg.cpython-313.pyc> <0.000087>
+09:07:13.454859 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000093>
+09:07:13.455455 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000092>
+09:07:13.456232 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000067>
+09:07:13.456685 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/warnings.py", {st_mode=S_IFREG|0644, st_size=26948, ...}, 0) = 0 <0.000059>
+09:07:13.457176 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/warnings.py", {st_mode=S_IFREG|0644, st_size=26948, ...}, 0) = 0 <0.000061>
+09:07:13.457524 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/warnings.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/warnings.cpython-313.pyc> <0.000085>
+09:07:13.460914 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000066>
+09:07:13.461311 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000059>
+09:07:13.461780 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000101>
+09:07:13.462151 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/contextlib.py", {st_mode=S_IFREG|0644, st_size=27801, ...}, 0) = 0 <0.000063>
+09:07:13.462645 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/contextlib.py", {st_mode=S_IFREG|0644, st_size=27801, ...}, 0) = 0 <0.000066>
+09:07:13.463040 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/contextlib.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/contextlib.cpython-313.pyc> <0.000108>
+09:07:13.471007 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000079>
+09:07:13.471450 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000060>
+09:07:13.471983 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000062>
+09:07:13.472350 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/_colorize.py", {st_mode=S_IFREG|0644, st_size=2848, ...}, 0) = 0 <0.000056>
+09:07:13.472888 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/_colorize.py", {st_mode=S_IFREG|0644, st_size=2848, ...}, 0) = 0 <0.000067>
+09:07:13.473294 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/_colorize.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/_colorize.cpython-313.pyc> <0.000086>
+09:07:13.475165 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000084>
+09:07:13.475737 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000095>
+09:07:13.476471 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000141>
+09:07:13.477101 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__future__.py", {st_mode=S_IFREG|0644, st_size=5218, ...}, 0) = 0 <0.000063>
+09:07:13.477669 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__future__.py", {st_mode=S_IFREG|0644, st_size=5218, ...}, 0) = 0 <0.000061>
+09:07:13.478041 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/__future__.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/__future__.cpython-313.pyc> <0.000091>
+09:07:13.482952 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000058>
+09:07:13.483349 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000060>
+09:07:13.483753 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000074>
+09:07:13.484119 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/tokenize.py", {st_mode=S_IFREG|0644, st_size=21568, ...}, 0) = 0 <0.000058>
+09:07:13.484642 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/tokenize.py", {st_mode=S_IFREG|0644, st_size=21568, ...}, 0) = 0 <0.000060>
+09:07:13.484991 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/tokenize.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/tokenize.cpython-313.pyc> <0.000086>
+09:07:13.489019 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000064>
+09:07:13.489659 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000060>
+09:07:13.490235 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000078>
+09:07:13.490711 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/token.py", {st_mode=S_IFREG|0644, st_size=2489, ...}, 0) = 0 <0.000404>
+09:07:13.491729 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/token.py", {st_mode=S_IFREG|0644, st_size=2489, ...}, 0) = 0 <0.000097>
+09:07:13.492426 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/token.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/token.cpython-313.pyc> <0.000219>
+09:07:13.500809 getcwd("/home/hlebushek/system_administration/lab6", 1024) = 43 <0.000424>
+09:07:13.501876 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/home/hlebushek/system_administration/lab6", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000132>
+09:07:13.502802 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0 <0.000093>
+09:07:13.503399 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/ast.py", {st_mode=S_IFREG|0644, st_size=65339, ...}, 0) = 0 <0.000085>
+09:07:13.504204 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/ast.py", {st_mode=S_IFREG|0644, st_size=65339, ...}, 0) = 0 <0.000110>
+09:07:13.504954 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/lib/python3.13/__pycache__/ast.cpython-313.pyc", O_RDONLY|O_CLOEXEC) = 3</usr/lib/python3.13/__pycache__/ast.cpython-313.pyc> <0.000200>
+09:07:13.611678 +++ exited with 1 +++

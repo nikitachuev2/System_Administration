@@ -1,0 +1,4 @@
+09:07:12.538837 futex(0xffff8eb7165c, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000094>
+09:07:12.796966 write(3, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"..., 67108864) = 67108864 <0.108672>
+09:07:12.928543 fsync(3)                = 0 <0.000071>
+09:07:12.955097 +++ exited with 0 +++

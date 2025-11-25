@@ -1,0 +1,49 @@
+09:07:13.023622 set_robust_list(0xffff8a42e100, 24) = 0 <0.000047>
+09:07:13.023984 rt_sigprocmask(SIG_SETMASK, [INT TERM CHLD], NULL, 8) = 0 <0.000052>
+09:07:13.024293 getpid()                = 5926 <0.000076>
+09:07:13.024599 close(255</home/hlebushek/system_administration/lab6/tasks/07-daemonize/daemon.sh>) = 0 <0.000045>
+09:07:13.024880 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000054>
+09:07:13.025084 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000044>
+09:07:13.025366 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000058>
+09:07:13.025608 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000044>
+09:07:13.025904 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000052>
+09:07:13.026170 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=0}, 8) = 0 <0.000045>
+09:07:13.026414 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTART}, {sa_handler=0xaaaad4206440, sa_mask=[], sa_flags=SA_RESTART}, 8) = 0 <0.000070>
+09:07:13.026695 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000045>
+09:07:13.026913 rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000063>
+09:07:13.027119 rt_sigaction(SIGCHLD, {sa_handler=0xaaaad4206440, sa_mask=[], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTART}, 8) = 0 <0.000072>
+09:07:13.027360 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000051>
+09:07:13.027650 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000051>
+09:07:13.027932 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/dev/null", O_RDONLY) = 3</dev/null> <0.000178>
+09:07:13.028436 dup3(3</dev/null>, 0</dev/pts/0>, 0) = 0</dev/null> <0.000114>
+09:07:13.028777 close(3</dev/null>)     = 0 <0.000048>
+09:07:13.029141 newfstatat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/nonexistent", 0xffffd5095538, 0) = -1 ENOENT (Нет такого файла или каталога) <0.000070>
+09:07:13.029408 chdir("/nonexistent")   = -1 ENOENT (Нет такого файла или каталога) <0.000048>
+09:07:13.029613 chdir("/nonexistent")   = -1 ENOENT (Нет такого файла или каталога) <0.000048>
+09:07:13.029941 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3</etc/locale.alias> <0.000089>
+09:07:13.030237 fstat(3</etc/locale.alias>, {st_mode=S_IFREG|0644, st_size=2996, ...}) = 0 <0.000061>
+09:07:13.030493 read(3</etc/locale.alias>, "# Locale name alias data base.\n# Copyright (C) 1996-2025 Free Software Foundation, Inc.\n#\n# This program is free softwar"..., 4096) = 2996 <0.000061>
+09:07:13.030992 read(3</etc/locale.alias>, "", 4096) = 0 <0.000068>
+09:07:13.031338 close(3</etc/locale.alias>) = 0 <0.000059>
+09:07:13.031596 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000071>
+09:07:13.031850 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000064>
+09:07:13.032128 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000061>
+09:07:13.032347 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000057>
+09:07:13.032555 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000058>
+09:07:13.032819 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru/LC_MESSAGES/libc.mo", O_RDONLY) = 3</usr/share/locale/ru/LC_MESSAGES/libc.mo> <0.000068>
+09:07:13.033056 fstat(3</usr/share/locale/ru/LC_MESSAGES/libc.mo>, {st_mode=S_IFREG|0644, st_size=191646, ...}) = 0 <0.000046>
+09:07:13.033257 mmap(NULL, 191646, PROT_READ, MAP_PRIVATE, 3</usr/share/locale/ru/LC_MESSAGES/libc.mo>, 0) = 0xffff89ee4000 <0.000147>
+09:07:13.033628 close(3</usr/share/locale/ru/LC_MESSAGES/libc.mo>) = 0 <0.000049>
+09:07:13.034089 fstat(2</dev/pts/0>, {st_mode=S_IFCHR|0600, st_rdev=makedev(0x88, 0), ...}) = 0 <0.000051>
+09:07:13.034434 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000078>
+09:07:13.034712 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000056>
+09:07:13.034925 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru_RU/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000059>
+09:07:13.035133 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000078>
+09:07:13.035384 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (Нет такого файла или каталога) <0.000060>
+09:07:13.035603 openat(AT_FDCWD</home/hlebushek/system_administration/lab6>, "/usr/share/locale/ru/LC_MESSAGES/bash.mo", O_RDONLY) = 3</usr/share/locale/ru/LC_MESSAGES/bash.mo> <0.000069>
+09:07:13.035857 fstat(3</usr/share/locale/ru/LC_MESSAGES/bash.mo>, {st_mode=S_IFREG|0644, st_size=128229, ...}) = 0 <0.000049>
+09:07:13.036071 mmap(NULL, 128229, PROT_READ, MAP_PRIVATE, 3</usr/share/locale/ru/LC_MESSAGES/bash.mo>, 0) = 0xffff89ec4000 <0.000102>
+09:07:13.036318 close(3</usr/share/locale/ru/LC_MESSAGES/bash.mo>) = 0 <0.000047>
+09:07:13.036781 write(2</dev/pts/0>, "tasks/07-daemonize/daemon.sh: \321\201\321\202\321\200\320\276\320\272\320\260 2: cd: /nonexistent: \320\235\320\265\321\202 \321\202\320\260\320\272\320\276\320\263\320\276 \321\204\320\260\320\271\320\273\320\260 \320\270\320\273\320\270 \320\272\320\260\321\202\320\260\320\273\320\276\320\263\320\260\n", 119) = 119 <0.000114>
+09:07:13.037375 exit_group(1)           = ?
+09:07:13.038391 +++ exited with 1 +++
