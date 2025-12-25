@@ -1,0 +1,6 @@
+keepalived_vip: 192.168.1.200
+keepalived_vrid: 51
+keepalived_authpass: "lab-vrrp-pass"
+
+# Автоопределение интерфейса (ens33 / wlp0s20f3) через факты Ansible
+keepalived_interface: "{{ ansible_default_ipv4.interface }}"

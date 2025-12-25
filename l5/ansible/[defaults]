@@ -1,0 +1,12 @@
+[defaults]
+inventory = inventories/lab/hosts.ini
+remote_user = hlebushek
+host_key_checking = False
+roles_path = roles
+timeout = 30
+[all:vars]
+ansible_user=hlebushek
+ansible_password=1111
+ansible_become_password=1111
+ansible_become=true
+ansible_become_method=sudo
